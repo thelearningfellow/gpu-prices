@@ -4,44 +4,48 @@
         "gpu_model": "H200",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
-        "gpu_memory_gb": 1128,
+        "gpu_memory_gb": 141,
         "price_per_hour": 31.28,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "H100 8x",
         "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
-        "gpu_memory_gb": 640,
+        "gpu_memory_gb": 80,
         "price_per_hour": 19.8,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "H100 4x",
         "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
-        "gpu_memory_gb": 320,
+        "gpu_memory_gb": 80,
         "price_per_hour": 9.9,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "H100 2x",
         "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
-        "gpu_memory_gb": 160,
+        "gpu_memory_gb": 80,
         "price_per_hour": 4.95,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "H100 1x",
@@ -50,20 +54,22 @@
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 2.48,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "MI300X 8x",
         "gpu_model": "MI300X",
         "gpu_company": "AMD",
         "num_gpus": 8,
-        "gpu_memory_gb": 1536,
+        "gpu_memory_gb": 192,
         "price_per_hour": 26.4,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "MI300X 1x",
@@ -72,31 +78,34 @@
         "num_gpus": 1,
         "gpu_memory_gb": 192,
         "price_per_hour": 3.3,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A100 8x",
         "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
-        "gpu_memory_gb": 320,
+        "gpu_memory_gb": 40,
         "price_per_hour": 11.0,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A100 2x",
         "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
-        "gpu_memory_gb": 80,
+        "gpu_memory_gb": 40,
         "price_per_hour": 3.19,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A100 1x",
@@ -105,97 +114,118 @@
         "num_gpus": 1,
         "gpu_memory_gb": 40,
         "price_per_hour": 1.38,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "GAUDI2 8x",
         "gpu_model": "GAUDI2",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
-        "gpu_memory_gb": 768,
+        "gpu_memory_gb": 96,
         "price_per_hour": 13.2,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
+    },
+    {
+        "instance_name": "GH200 1x",
+        "gpu_model": "GH200",
+        "gpu_company": "NVIDIA",
+        "num_gpus": 1,
+        "gpu_memory_gb": 96,
+        "price_per_hour": 4.65,
+        "interconnect": "None",
+        "provider": "sesterce",
+        "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A100_80G 8x",
-        "gpu_model": "A100_80G",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
-        "gpu_memory_gb": 640,
+        "gpu_memory_gb": 80,
         "price_per_hour": 11.29,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A100_80G 2x",
-        "gpu_model": "A100_80G",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
-        "gpu_memory_gb": 160,
+        "gpu_memory_gb": 80,
         "price_per_hour": 3.41,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A100_80G 1x",
-        "gpu_model": "A100_80G",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 1.49,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "L40S 10x",
         "gpu_model": "L40S",
         "gpu_company": "NVIDIA",
         "num_gpus": 10,
-        "gpu_memory_gb": 480,
+        "gpu_memory_gb": 48,
         "price_per_hour": 15.95,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "L40S 8x",
         "gpu_model": "L40S",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
-        "gpu_memory_gb": 384,
+        "gpu_memory_gb": 48,
         "price_per_hour": 12.76,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "L40S 4x",
         "gpu_model": "L40S",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
-        "gpu_memory_gb": 192,
+        "gpu_memory_gb": 48,
         "price_per_hour": 5.72,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "L40S 2x",
         "gpu_model": "L40S",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
-        "gpu_memory_gb": 96,
+        "gpu_memory_gb": 48,
         "price_per_hour": 2.86,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "L40S 1x",
@@ -204,75 +234,46 @@
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 1.21,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
-        "instance_name": "A40 8x",
-        "gpu_model": "A40",
+        "instance_name": "L40 8x",
+        "gpu_model": "L40",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
-        "gpu_memory_gb": 384,
-        "price_per_hour": 9.68,
-        "provider": "sesterce",
-        "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
-    },
-    {
-        "instance_name": "A40 4x",
-        "gpu_model": "A40",
-        "gpu_company": "NVIDIA",
-        "num_gpus": 4,
-        "gpu_memory_gb": 192,
-        "price_per_hour": 4.84,
-        "provider": "sesterce",
-        "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
-    },
-    {
-        "instance_name": "A40 2x",
-        "gpu_model": "A40",
-        "gpu_company": "NVIDIA",
-        "num_gpus": 2,
-        "gpu_memory_gb": 96,
-        "price_per_hour": 2.42,
-        "provider": "sesterce",
-        "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
-    },
-    {
-        "instance_name": "A40 1x",
-        "gpu_model": "A40",
-        "gpu_company": "NVIDIA",
-        "num_gpus": 1,
         "gpu_memory_gb": 48,
-        "price_per_hour": 0.58,
+        "price_per_hour": 8.8,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "L40 4x",
         "gpu_model": "L40",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
-        "gpu_memory_gb": 192,
+        "gpu_memory_gb": 48,
         "price_per_hour": 4.36,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "L40 2x",
         "gpu_model": "L40",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
-        "gpu_memory_gb": 96,
+        "gpu_memory_gb": 48,
         "price_per_hour": 2.18,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "L40 1x",
@@ -281,31 +282,82 @@
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 1.09,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
+    },
+    {
+        "instance_name": "A40 8x",
+        "gpu_model": "A40",
+        "gpu_company": "NVIDIA",
+        "num_gpus": 8,
+        "gpu_memory_gb": 48,
+        "price_per_hour": 9.68,
+        "interconnect": "None",
+        "provider": "sesterce",
+        "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
+        "signup_link": "https://cloud.sesterce.com/auth"
+    },
+    {
+        "instance_name": "A40 4x",
+        "gpu_model": "A40",
+        "gpu_company": "NVIDIA",
+        "num_gpus": 4,
+        "gpu_memory_gb": 48,
+        "price_per_hour": 4.84,
+        "interconnect": "None",
+        "provider": "sesterce",
+        "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
+        "signup_link": "https://cloud.sesterce.com/auth"
+    },
+    {
+        "instance_name": "A40 2x",
+        "gpu_model": "A40",
+        "gpu_company": "NVIDIA",
+        "num_gpus": 2,
+        "gpu_memory_gb": 48,
+        "price_per_hour": 2.42,
+        "interconnect": "None",
+        "provider": "sesterce",
+        "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
+        "signup_link": "https://cloud.sesterce.com/auth"
+    },
+    {
+        "instance_name": "A40 1x",
+        "gpu_model": "A40",
+        "gpu_company": "NVIDIA",
+        "num_gpus": 1,
+        "gpu_memory_gb": 48,
+        "price_per_hour": 0.58,
+        "interconnect": "None",
+        "provider": "sesterce",
+        "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A6000 4x",
         "gpu_model": "A6000",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
-        "gpu_memory_gb": 192,
+        "gpu_memory_gb": 48,
         "price_per_hour": 8.49,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A6000 2x",
         "gpu_model": "A6000",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
-        "gpu_memory_gb": 96,
-        "price_per_hour": 1.29,
+        "gpu_memory_gb": 48,
+        "price_per_hour": 4.25,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A6000 1x",
@@ -313,65 +365,83 @@
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 48,
-        "price_per_hour": 0.55,
+        "price_per_hour": 0.63,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "V100_32G 4x",
-        "gpu_model": "V100_32G",
+        "gpu_model": "V100",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
-        "gpu_memory_gb": 128,
+        "gpu_memory_gb": 32,
         "price_per_hour": 10.3,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "V100_32G 2x",
-        "gpu_model": "V100_32G",
+        "gpu_model": "V100",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
-        "gpu_memory_gb": 64,
+        "gpu_memory_gb": 32,
         "price_per_hour": 5.15,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "V100_32G 1x",
-        "gpu_model": "V100_32G",
+        "gpu_model": "V100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 32,
         "price_per_hour": 2.57,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
+    },
+    {
+        "instance_name": "RTX4090 8x",
+        "gpu_model": "RTX4090",
+        "gpu_company": "NVIDIA",
+        "num_gpus": 8,
+        "gpu_memory_gb": 24,
+        "price_per_hour": 3.52,
+        "interconnect": "None",
+        "provider": "sesterce",
+        "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "RTX4090 4x",
         "gpu_model": "RTX4090",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
-        "gpu_memory_gb": 96,
+        "gpu_memory_gb": 24,
         "price_per_hour": 2.64,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "RTX4090 2x",
         "gpu_model": "RTX4090",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
-        "gpu_memory_gb": 48,
+        "gpu_memory_gb": 24,
         "price_per_hour": 1.32,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "RTX4090 1x",
@@ -380,31 +450,34 @@
         "num_gpus": 1,
         "gpu_memory_gb": 24,
         "price_per_hour": 0.66,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A5000 4x",
         "gpu_model": "A5000",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
-        "gpu_memory_gb": 96,
+        "gpu_memory_gb": 24,
         "price_per_hour": 4.27,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A5000 2x",
         "gpu_model": "A5000",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
-        "gpu_memory_gb": 48,
+        "gpu_memory_gb": 24,
         "price_per_hour": 2.13,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A5000 1x",
@@ -413,53 +486,58 @@
         "num_gpus": 1,
         "gpu_memory_gb": 24,
         "price_per_hour": 0.54,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A16 16x",
         "gpu_model": "A16",
         "gpu_company": "NVIDIA",
         "num_gpus": 16,
-        "gpu_memory_gb": 256,
+        "gpu_memory_gb": 16,
         "price_per_hour": 10.11,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A16 8x",
         "gpu_model": "A16",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
-        "gpu_memory_gb": 128,
+        "gpu_memory_gb": 16,
         "price_per_hour": 4.5,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A16 4x",
         "gpu_model": "A16",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
-        "gpu_memory_gb": 64,
+        "gpu_memory_gb": 16,
         "price_per_hour": 2.26,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A16 2x",
         "gpu_model": "A16",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
-        "gpu_memory_gb": 32,
+        "gpu_memory_gb": 16,
         "price_per_hour": 1.12,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A16 1x",
@@ -468,31 +546,34 @@
         "num_gpus": 1,
         "gpu_memory_gb": 16,
         "price_per_hour": 0.56,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A4000 4x",
         "gpu_model": "A4000",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
-        "gpu_memory_gb": 64,
+        "gpu_memory_gb": 16,
         "price_per_hour": 3.52,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A4000 2x",
         "gpu_model": "A4000",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
-        "gpu_memory_gb": 32,
+        "gpu_memory_gb": 16,
         "price_per_hour": 0.33,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "A4000 1x",
@@ -501,9 +582,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 16,
         "price_per_hour": 0.17,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "V100 1x",
@@ -512,75 +594,82 @@
         "num_gpus": 1,
         "gpu_memory_gb": 16,
         "price_per_hour": 2.57,
+        "interconnect": "None",
         "provider": "sesterce",
         "logo": "https://www.sesterce.com/_next/static/media/sesterce-eagle-black.317186aa.svg",
-        "signup_link": "https://cloud.sesterce.com/signup"
+        "signup_link": "https://cloud.sesterce.com/auth"
     },
     {
         "instance_name": "H100 NVL",
-        "gpu_model": "H100 NVL",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 94,
         "price_per_hour": 2.79,
+        "interconnect": "NVLink",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "H200 SXM",
-        "gpu_model": "H200 SXM",
+        "gpu_model": "H200",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 141,
         "price_per_hour": 3.99,
+        "interconnect": "NVLink",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "H100 PCIe",
-        "gpu_model": "H100 PCIe",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 2.39,
+        "interconnect": "PCIe",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "H100 SXM",
-        "gpu_model": "H100 SXM",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 2.99,
+        "interconnect": "NVLink",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "A100 PCIe",
-        "gpu_model": "A100 PCIe",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 1.64,
+        "interconnect": "PCIe",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "A100 SXM",
-        "gpu_model": "A100 SXM",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 1.89,
+        "interconnect": "NVLink",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "A40",
@@ -589,9 +678,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 0.44,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "L40",
@@ -600,9 +690,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 0.99,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "L40S",
@@ -611,9 +702,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 0.86,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "RTX A6000",
@@ -622,9 +714,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 0.49,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "RTX 6000 Ada",
@@ -633,9 +726,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 0.77,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "RTX A5000",
@@ -644,9 +738,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 24,
         "price_per_hour": 0.29,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "RTX 4090",
@@ -655,9 +750,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 24,
         "price_per_hour": 0.69,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "RTX 3090",
@@ -666,9 +762,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 24,
         "price_per_hour": 0.43,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "RTX 3090 Ti",
@@ -677,9 +774,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 24,
         "price_per_hour": 0.27,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "A30",
@@ -688,9 +786,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 24,
         "price_per_hour": 0.22,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "L4",
@@ -699,9 +798,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 24,
         "price_per_hour": 0.43,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "RTX A4500",
@@ -710,9 +810,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 20,
         "price_per_hour": 0.34,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "RTX 4000 Ada",
@@ -721,9 +822,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 20,
         "price_per_hour": 0.38,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "RTX A4000",
@@ -732,9 +834,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 16,
         "price_per_hour": 0.32,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "Tesla V100",
@@ -743,9 +846,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 16,
         "price_per_hour": 0.19,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "RTX 2000 Ada",
@@ -754,9 +858,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 16,
         "price_per_hour": 0.28,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "RTX 3080",
@@ -765,42 +870,46 @@
         "num_gpus": 1,
         "gpu_memory_gb": 10,
         "price_per_hour": 0.17,
+        "interconnect": "None",
         "provider": "runpod",
         "logo": "https://image.pitchbook.com/rTY0V2ELBbQNWXWpCkc9ntDAv5N1701770572081_200x200",
-        "signup_link": "https://www.runpod.io/signup"
+        "signup_link": "https://runpod.io?ref=7e3818eb"
     },
     {
         "instance_name": "On-demand 8x NVIDIA H100 SXM",
-        "gpu_model": "H100 SXM",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
         "gpu_memory_gb": 80,
         "price_per_hour": 23.92,
+        "interconnect": "NVLink",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 8x NVIDIA A100 SXM",
-        "gpu_model": "A100 SXM",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
         "gpu_memory_gb": 80,
         "price_per_hour": 14.32,
+        "interconnect": "NVLink",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 8x NVIDIA A100 SXM",
-        "gpu_model": "A100 SXM",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
         "gpu_memory_gb": 40,
         "price_per_hour": 10.32,
+        "interconnect": "NVLink",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 8x NVIDIA Tesla V100",
@@ -809,31 +918,34 @@
         "num_gpus": 8,
         "gpu_memory_gb": 16,
         "price_per_hour": 4.4,
+        "interconnect": "None",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 4x NVIDIA H100 SXM",
-        "gpu_model": "H100 SXM",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
         "gpu_memory_gb": 80,
         "price_per_hour": 12.36,
+        "interconnect": "NVLink",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 4x NVIDIA A100 PCIe",
-        "gpu_model": "A100 PCIe",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
         "gpu_memory_gb": 40,
         "price_per_hour": 5.16,
+        "interconnect": "PCIe",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 4x NVIDIA A6000",
@@ -842,31 +954,34 @@
         "num_gpus": 4,
         "gpu_memory_gb": 48,
         "price_per_hour": 3.2,
+        "interconnect": "None",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 2x NVIDIA H100 SXM",
-        "gpu_model": "H100 SXM",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
         "gpu_memory_gb": 80,
         "price_per_hour": 6.38,
+        "interconnect": "NVLink",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 2x NVIDIA A100 PCIe",
-        "gpu_model": "A100 PCIe",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
         "gpu_memory_gb": 40,
         "price_per_hour": 2.58,
+        "interconnect": "PCIe",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 2x NVIDIA A6000",
@@ -875,9 +990,10 @@
         "num_gpus": 2,
         "gpu_memory_gb": 48,
         "price_per_hour": 1.6,
+        "interconnect": "None",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 1x NVIDIA GH200",
@@ -886,53 +1002,58 @@
         "num_gpus": 1,
         "gpu_memory_gb": 96,
         "price_per_hour": 1.49,
+        "interconnect": "None",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 1x NVIDIA H100 SXM",
-        "gpu_model": "H100 SXM",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 3.29,
+        "interconnect": "NVLink",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 1x NVIDIA H100 PCIe",
-        "gpu_model": "H100 PCIe",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 2.49,
+        "interconnect": "PCIe",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 1x NVIDIA A100 SXM",
-        "gpu_model": "A100 SXM",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 40,
         "price_per_hour": 1.29,
+        "interconnect": "NVLink",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 1x NVIDIA A100 PCIe",
-        "gpu_model": "A100 PCIe",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 40,
         "price_per_hour": 1.29,
+        "interconnect": "PCIe",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 1x NVIDIA A10",
@@ -941,9 +1062,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 24,
         "price_per_hour": 0.75,
+        "interconnect": "None",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 1x NVIDIA A6000",
@@ -952,9 +1074,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 0.8,
+        "interconnect": "None",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "On-demand 1x NVIDIA Quadro RTX 6000",
@@ -963,9 +1086,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 24,
         "price_per_hour": 0.5,
+        "interconnect": "None",
         "provider": "lambda",
         "logo": "https://image.pitchbook.com/O5jqvirnYvu8jERMEcU3fwjasmn1714493820798_200x200",
-        "signup_link": "https://lambdalabs.com/service/gpu-cloud#signup"
+        "signup_link": "https://auth.lambdalabs.com/u/signup"
     },
     {
         "instance_name": "NVIDIA H200 GPU",
@@ -974,9 +1098,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 141,
         "price_per_hour": 3.5,
+        "interconnect": "None",
         "provider": "nebius",
         "logo": "https://image.pitchbook.com/z68C8zGXQDFWpEhY9u8kIPgpK3A1742900842385_200x200",
-        "signup_link": "https://nebius.com/signup"
+        "signup_link": "https://auth.eu.nebius.com/ui/login"
     },
     {
         "instance_name": "NVIDIA H100 GPU",
@@ -985,9 +1110,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 2.95,
+        "interconnect": "None",
         "provider": "nebius",
         "logo": "https://image.pitchbook.com/z68C8zGXQDFWpEhY9u8kIPgpK3A1742900842385_200x200",
-        "signup_link": "https://nebius.com/signup"
+        "signup_link": "https://auth.eu.nebius.com/ui/login"
     },
     {
         "instance_name": "NVIDIA L40S GPU with AMD",
@@ -996,9 +1122,10 @@
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 1.82,
+        "interconnect": "None",
         "provider": "nebius",
         "logo": "https://image.pitchbook.com/z68C8zGXQDFWpEhY9u8kIPgpK3A1742900842385_200x200",
-        "signup_link": "https://nebius.com/signup"
+        "signup_link": "https://auth.eu.nebius.com/ui/login"
     },
     {
         "instance_name": "NVIDIA L40S GPU with Intel",
@@ -1007,449 +1134,490 @@
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 1.55,
+        "interconnect": "None",
         "provider": "nebius",
         "logo": "https://image.pitchbook.com/z68C8zGXQDFWpEhY9u8kIPgpK3A1742900842385_200x200",
-        "signup_link": "https://nebius.com/signup"
+        "signup_link": "https://auth.eu.nebius.com/ui/login"
     },
     {
         "instance_name": "8B200.248V",
-        "gpu_model": "B200 SXM6 180GB",
+        "gpu_model": "B200",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
         "gpu_memory_gb": 180,
         "price_per_hour": 35.92,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "4B200.124V",
-        "gpu_model": "B200 SXM6 180GB",
+        "gpu_model": "B200",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
         "gpu_memory_gb": 180,
         "price_per_hour": 17.96,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "2B200.62V",
-        "gpu_model": "B200 SXM6 180GB",
+        "gpu_model": "B200",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
         "gpu_memory_gb": 180,
         "price_per_hour": 8.98,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "1B200.31V",
-        "gpu_model": "B200 SXM6 180GB",
+        "gpu_model": "B200",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 180,
         "price_per_hour": 4.49,
+        "interconnect": "None",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "8H200.141S.176V",
-        "gpu_model": "H200 SXM5 141GB",
+        "gpu_model": "H200",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
         "gpu_memory_gb": 141,
         "price_per_hour": 26.4,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "4H200.141S.176V",
-        "gpu_model": "H200 SXM5 141GB",
+        "gpu_model": "H200",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
         "gpu_memory_gb": 141,
         "price_per_hour": 13.2,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "2H200.141S.88V",
-        "gpu_model": "H200 SXM5 141GB",
+        "gpu_model": "H200",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
         "gpu_memory_gb": 141,
         "price_per_hour": 6.6,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "1H200.141S.44V",
-        "gpu_model": "H200 SXM5 141GB",
+        "gpu_model": "H200",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 141,
         "price_per_hour": 3.3,
+        "interconnect": "None",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "8H100.80S.176V",
-        "gpu_model": "H100 SXM5 80GB",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
         "gpu_memory_gb": 80,
         "price_per_hour": 17.52,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "4H100.80S.176V",
-        "gpu_model": "H100 SXM5 80GB",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
         "gpu_memory_gb": 80,
         "price_per_hour": 8.76,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "2H100.80S.80V",
-        "gpu_model": "H100 SXM5 80GB",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
         "gpu_memory_gb": 80,
         "price_per_hour": 4.38,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "1H100.80S.32V",
-        "gpu_model": "H100 SXM5 80GB",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 2.19,
+        "interconnect": "None",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "1H100.80S.30V",
-        "gpu_model": "H100 SXM5 80GB",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 2.19,
+        "interconnect": "None",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "8A100.176V",
-        "gpu_model": "A100 SXM4 80GB",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
         "gpu_memory_gb": 80,
         "price_per_hour": 14.0,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "4A100.88V",
-        "gpu_model": "A100 SXM4 80GB",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
         "gpu_memory_gb": 80,
         "price_per_hour": 7.0,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "2A100.44V",
-        "gpu_model": "A100 SXM4 80GB",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
         "gpu_memory_gb": 80,
         "price_per_hour": 3.5,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "1A100.22V",
-        "gpu_model": "A100 SXM4 80GB",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 1.75,
+        "interconnect": "None",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "8A100.40S.176V",
-        "gpu_model": "A100 SXM4 40GB",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
         "gpu_memory_gb": 40,
         "price_per_hour": 10.32,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "1A100.40S.22V",
-        "gpu_model": "A100 SXM4 40GB",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 40,
         "price_per_hour": 1.29,
+        "interconnect": "None",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "8L40S.160V",
-        "gpu_model": "L40S 48GB",
+        "gpu_model": "L40S",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
         "gpu_memory_gb": 48,
         "price_per_hour": 8.4,
+        "interconnect": "PCIe",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "4L40S.80V",
-        "gpu_model": "L40S 48GB",
+        "gpu_model": "L40S",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
         "gpu_memory_gb": 48,
         "price_per_hour": 4.2,
+        "interconnect": "PCIe",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "2L40S.40V",
-        "gpu_model": "L40S 48GB",
+        "gpu_model": "L40S",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
         "gpu_memory_gb": 48,
         "price_per_hour": 2.1,
+        "interconnect": "PCIe",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "1L40S.20V",
-        "gpu_model": "L40S 48GB",
+        "gpu_model": "L40S",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 1.05,
+        "interconnect": "None",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "8RTX6000ADA.80V",
-        "gpu_model": "RTX6000 Ada 48GB",
+        "gpu_model": "RTX6000 Ada",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
         "gpu_memory_gb": 48,
         "price_per_hour": 8.4,
+        "interconnect": "PCIe",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "4RTX6000ADA.40V",
-        "gpu_model": "RTX6000 Ada 48GB",
+        "gpu_model": "RTX6000 Ada",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
         "gpu_memory_gb": 48,
         "price_per_hour": 4.2,
+        "interconnect": "PCIe",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "2RTX6000ADA.20V",
-        "gpu_model": "RTX6000 Ada 48GB",
+        "gpu_model": "RTX6000 Ada",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
         "gpu_memory_gb": 48,
         "price_per_hour": 2.1,
+        "interconnect": "PCIe",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "1RTX6000ADA.10V",
-        "gpu_model": "RTX6000 Ada 48GB",
+        "gpu_model": "RTX6000 Ada",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 1.05,
+        "interconnect": "None",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "8A6000.80V",
-        "gpu_model": "RTX A6000 48GB",
+        "gpu_model": "RTX A6000",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
         "gpu_memory_gb": 48,
         "price_per_hour": 7.12,
+        "interconnect": "PCIe",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "4A6000.40V",
-        "gpu_model": "RTX A6000 48GB",
+        "gpu_model": "RTX A6000",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
         "gpu_memory_gb": 48,
         "price_per_hour": 3.56,
+        "interconnect": "PCIe",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "2A6000.20V",
-        "gpu_model": "RTX A6000 48GB",
+        "gpu_model": "RTX A6000",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
         "gpu_memory_gb": 48,
         "price_per_hour": 1.78,
+        "interconnect": "PCIe",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "1A6000.10V",
-        "gpu_model": "RTX A6000 48GB",
+        "gpu_model": "RTX A6000",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 0.89,
+        "interconnect": "None",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "8V100.48V",
-        "gpu_model": "Tesla V100 16GB",
+        "gpu_model": "Tesla V100",
         "gpu_company": "NVIDIA",
         "num_gpus": 8,
         "gpu_memory_gb": 16,
         "price_per_hour": 1.92,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "4V100.20V",
-        "gpu_model": "Tesla V100 16GB",
+        "gpu_model": "Tesla V100",
         "gpu_company": "NVIDIA",
         "num_gpus": 4,
         "gpu_memory_gb": 16,
         "price_per_hour": 0.96,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "2V100.10V",
-        "gpu_model": "Tesla V100 16GB",
+        "gpu_model": "Tesla V100",
         "gpu_company": "NVIDIA",
         "num_gpus": 2,
         "gpu_memory_gb": 16,
         "price_per_hour": 0.48,
+        "interconnect": "NVLink",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "1V100.6V",
-        "gpu_model": "Tesla V100 16GB",
+        "gpu_model": "Tesla V100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 16,
         "price_per_hour": 0.24,
+        "interconnect": "None",
         "provider": "datacrunch",
         "logo": "https://image.pitchbook.com/b5r66QGOECdHLnyNJk3cIwVcFJd1729863407973_200x200",
-        "signup_link": "https://datacrunch.io/signup"
+        "signup_link": "https://cloud.datacrunch.io/signin"
     },
     {
         "instance_name": "NVIDIA H100 SXM 80GB",
-        "gpu_model": "H100 SXM",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 2.4,
+        "interconnect": "NVLink",
         "provider": "hyperstack",
         "logo": "https://image.pitchbook.com/jQmRMJabErkxM5XcULn6Qygb2nw1705655200625_200x200",
-        "signup_link": "https://www.hyperstack.cloud/signup"
+        "signup_link": "https://console.hyperstack.cloud/login"
     },
     {
         "instance_name": "NVIDIA H100 PCIe NVLink 80GB",
-        "gpu_model": "H100 PCIe NVLink",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 1.95,
+        "interconnect": "NVLink",
         "provider": "hyperstack",
         "logo": "https://image.pitchbook.com/jQmRMJabErkxM5XcULn6Qygb2nw1705655200625_200x200",
-        "signup_link": "https://www.hyperstack.cloud/signup"
+        "signup_link": "https://console.hyperstack.cloud/login"
     },
     {
         "instance_name": "NVIDIA H100 PCIe 80GB",
-        "gpu_model": "H100 PCIe",
+        "gpu_model": "H100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 1.9,
+        "interconnect": "PCIe",
         "provider": "hyperstack",
         "logo": "https://image.pitchbook.com/jQmRMJabErkxM5XcULn6Qygb2nw1705655200625_200x200",
-        "signup_link": "https://www.hyperstack.cloud/signup"
+        "signup_link": "https://console.hyperstack.cloud/login"
     },
     {
         "instance_name": "NVIDIA A100 80GB PCIe NVLink",
-        "gpu_model": "A100 PCIe NVLink",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 1.4,
+        "interconnect": "NVLink",
         "provider": "hyperstack",
         "logo": "https://image.pitchbook.com/jQmRMJabErkxM5XcULn6Qygb2nw1705655200625_200x200",
-        "signup_link": "https://www.hyperstack.cloud/signup"
+        "signup_link": "https://console.hyperstack.cloud/login"
     },
     {
         "instance_name": "NVIDIA A100 PCIe 80GB",
-        "gpu_model": "A100 PCIe",
+        "gpu_model": "A100",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 80,
         "price_per_hour": 1.35,
+        "interconnect": "PCIe",
         "provider": "hyperstack",
         "logo": "https://image.pitchbook.com/jQmRMJabErkxM5XcULn6Qygb2nw1705655200625_200x200",
-        "signup_link": "https://www.hyperstack.cloud/signup"
+        "signup_link": "https://console.hyperstack.cloud/login"
     },
     {
         "instance_name": "NVIDIA L40",
@@ -1458,19 +1626,21 @@
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 1.0,
+        "interconnect": "None",
         "provider": "hyperstack",
         "logo": "https://image.pitchbook.com/jQmRMJabErkxM5XcULn6Qygb2nw1705655200625_200x200",
-        "signup_link": "https://www.hyperstack.cloud/signup"
+        "signup_link": "https://console.hyperstack.cloud/login"
     },
     {
         "instance_name": "NVIDIA RTX A6000/A40",
-        "gpu_model": "RTX A6000/A40",
+        "gpu_model": "RTX A6000",
         "gpu_company": "NVIDIA",
         "num_gpus": 1,
         "gpu_memory_gb": 48,
         "price_per_hour": 0.5,
+        "interconnect": "None",
         "provider": "hyperstack",
         "logo": "https://image.pitchbook.com/jQmRMJabErkxM5XcULn6Qygb2nw1705655200625_200x200",
-        "signup_link": "https://www.hyperstack.cloud/signup"
+        "signup_link": "https://console.hyperstack.cloud/login"
     }
 ]
